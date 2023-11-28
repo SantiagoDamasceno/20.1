@@ -1,0 +1,85 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.cuerpo {
+    width: 100vw;
+  }
+
+body {
+    background-color: rgb(16, 17, 22);
+
+}
+
+H3 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+p {
+    color: grey;
+    text-align: left;
+}
+  
+.list-group {
+    list-style: none;
+  }
+  
+.list-group-item {
+    background-color: rgb(16, 17, 22);
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+.movie-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.title-and-stars {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-gap: 10px;
+  }
+
+#detalleGenres {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.dropdown{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
